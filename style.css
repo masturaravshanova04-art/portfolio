@@ -1,0 +1,114 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#08D0E5;
+}
+.nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:10px;
+    margin:20px;
+}
+ nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:50%;
+    gap:10px;
+    padding:15px;
+}
+.nav ul li a{
+    text-decoration:none;
+    color:#08D0E5;
+    font-size:20px;
+    font-weight:bold;
+}
+.hero{
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:20px;
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.hero h1{
+    font-size:50px;
+    padding:20px;
+}
+.hero p{
+    font-size:20px;
+    padding:20px;
+}
+.hero button{
+    background-color:#08D0E5;
+    color:#1C1173;
+    border:none;
+    padding:10px 20px;
+    font-size:20px;
+    border-radius:20px;
+}
+.about{
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:20px;
+    margin:20px;
+}
+.projects{
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:20px;
+    margin:20px;
+}
+.about h2, .projects h2{
+    font-size:40px;
+    padding:20px;
+}
+.contact{
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:20px;
+    margin:20px;
+}
+.contact h2{
+    font-size:40px;
+    padding:20px;
+}
+.contact form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.contact form input, .contact form textarea{
+    padding:10px;
+    border-radius:20px;
+    border:none;
+}
+.contact form button{
+    background-color:#08D0E5;
+    color:#1C1173;
+    border:none;
+    padding:10px 20px;
+    font-size:20px;
+    border-radius:20px;
+}
+.footer{
+    background-color:#1C1173;
+    color:#08D0E5;
+    border-radius:40px;
+    padding:20px;
+    margin:20px;
+    text-align:center;
+}
